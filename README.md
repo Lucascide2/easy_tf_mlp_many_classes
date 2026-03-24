@@ -1,2 +1,2 @@
 # easy_tf_mlp_many_classes
-Aplicação que permite testar diferentes topologias de modelos MLP multi-classe apenas modificando variáveis no programa principal.
+Aplicação que permite testar diferentes topologias de modelos MLP e permite escolher entre Classificação multiclasse e Classificação binária, sendo a última também possibilitada por meio de aproximação do resultado de uma Regressão.
