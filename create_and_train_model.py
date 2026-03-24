@@ -27,8 +27,6 @@ def create_and_train_model(topology, hidden_activation, output_activation, loss,
     else:
         pred_list = predictions.flatten().tolist()
 
-    print(pred_list)
-
     y_test_list = y_test.values.tolist()
 
     acessor = ResultsAcessor()

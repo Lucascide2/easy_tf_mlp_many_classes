@@ -1,38 +1,29 @@
-Topology: (128, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6681222707423581
-Topology: (128, 64, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6157205240174672
-Topology: (128, 64, 32, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6375545851528385
-Topology: (128, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.611353711790393
-Topology: (128, 64, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.6069868995633187
-Topology: (128, 64, 32, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.6331877729257642
-Topology: (128, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.6200873362445415
-Topology: (128, 64, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.611353711790393
-Topology: (128, 64, 32, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.6200873362445415
+# Classificação multiclasse Padrão
 
-Topology: (16, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6157205240174672
-Topology: (32, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.5982532751091703
-Topology: (64, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6462882096069869
-Topology: (16, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6157205240174672
-Topology: (32, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.5982532751091703
-Topology: (64, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6462882096069869
+Topology: (128, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6681222707423581, Time: 2.4261550903320312
+Topology: (128, 64, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6157205240174672, Time: 2.294421434402466
+Topology: (128, 64, 32, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6375545851528385, Time: 2.3770487308502197
+Topology: (256, 128, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6069868995633187, Time: 2.35036301612854
+Topology: (128, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.6069868995633187, Time: 2.045710325241089
+Topology: (128, 64, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.5982532751091703, Time: 2.197544813156128
+Topology: (128, 64, 32, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.5938864628820961, Time: 2.3560733795166016
+Topology: (256, 128, 6), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.5938864628820961, Time: 2.3110079765319824
+Topology: (128, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.6200873362445415, Time: 2.1406755447387695
+Topology: (128, 64, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.6157205240174672, Time: 2.314166307449341
+Topology: (128, 64, 32, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.6200873362445415, Time: 2.493496894836426
+Topology: (256, 128, 6), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.5982532751091703, Time: 2.635373830795288
 
-Topology: (8, 6), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.5545851528384279
+# Classificação multiclasse Regressão
 
-Topology: (128, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9519650655021834
-Topology: (64, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9432314410480349
-Topology: (128, 64, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9519650655021834
-Topology: (128, 64, 32, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9519650655021834
-
-####
-
-Topology: (128, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9519650655021834
-Topology: (128, 64, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9519650655021834
-Topology: (128, 64, 32, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9519650655021834
-Topology: (256, 128, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.9388646288209607
-Topology: (128, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.9432314410480349
-Topology: (128, 64, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.9344978165938864
-Topology: (128, 64, 32, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.9432314410480349
-Topology: (256, 128, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.9432314410480349
-Topology: (128, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.9519650655021834
-Topology: (128, 64, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.9301310043668122
-Topology: (128, 64, 32, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.9301310043668122
-Topology: (256, 128, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.925764192139738
+Topology: (128, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6506550218340611, Time: 2.260436773300171
+Topology: (128, 64, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6462882096069869, Time: 2.261256456375122
+Topology: (128, 64, 32, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6331877729257642, Time: 2.3912596702575684
+Topology: (256, 128, 1), Hidden Activation: sigmoid, Num Epochs: 50, Accuracy: 0.6331877729257642, Time: 2.3600780963897705
+Topology: (128, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.62882096069869, Time: 2.02970552444458
+Topology: (128, 64, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.6157205240174672, Time: 2.0866482257843018
+Topology: (128, 64, 32, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.5982532751091703, Time: 2.2538883686065674
+Topology: (256, 128, 1), Hidden Activation: relu, Num Epochs: 50, Accuracy: 0.6026200873362445, Time: 2.2246901988983154
+Topology: (128, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.6375545851528385, Time: 1.9599344730377197
+Topology: (128, 64, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.5895196506550219, Time: 2.2020347118377686
+Topology: (128, 64, 32, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.5807860262008734, Time: 2.338280439376831
+Topology: (256, 128, 1), Hidden Activation: tanh, Num Epochs: 50, Accuracy: 0.5764192139737991, Time: 2.4957387447357178

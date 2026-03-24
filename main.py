@@ -9,11 +9,11 @@ from aux import return_unique_values, tasks
 
 num_epochs = 50
 
-dataset = 'heart.csv'
-target='target'
+dataset = 'winequality_processed.csv'
+target='quality'
 
 hidden_activations = ['sigmoid', 'relu', 'tanh']
-task = tasks[1] # 0: multi_class_classification, 1: binary_classification, 2: regression
+task = tasks[2] # 0: multi_class_classification, 1: binary_classification, 2: regression
 
 if task == tasks[0]: 
     n, l = return_unique_values(dataset, target)
