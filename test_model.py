@@ -5,12 +5,12 @@ def test_model(y_test, predictions, loss, l = None):
         acc = np.array(predictions) == np.array(y_test)
     elif loss == 'binary_crossentropy':
         pred_arr = np.array(predictions)
-        acc = np.isclose(pred_arr, np.array(y_test), rtol=0.5)
+        pred_arr = (pred_arr > 0.5).astype(int)
+        acc = pred_arr == np.array(y_test)
     else:
         pred_arr = np.array(predictions)
-        pred_arr[pred_arr > l] = l
-        pred_arr[pred_arr < 0] = 0
-        acc = np.isclose(pred_arr, np.array(y_test), rtol=0.5)
+        pred_arr = np.clip(np.round(pred_arr), 0, l).astype(int)
+        acc = pred_arr == np.array(y_test)      
 
     print("\n\n\######## Acurácia: ########")
     acc = acc.sum() / len(acc)
