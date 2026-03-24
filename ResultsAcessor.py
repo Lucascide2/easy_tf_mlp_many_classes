@@ -15,6 +15,6 @@ class ResultsAcessor:
             list_str = f.readline()
         return y_test_str, list_str
     
-    def save_accuracy(self, topology, hidden_activation, num_epochs, acc):
+    def save_accuracy(self, topology, hidden_activation, num_epochs, acc, time):
         with open(self.acc_path, 'a') as f:
-            f.write(f"Topology: {topology}, Hidden Activation: {hidden_activation}, Num Epochs: {num_epochs}, Accuracy: {acc}\n")        
+            f.write(f"Topology: {topology}, Hidden Activation: {hidden_activation}, Num Epochs: {num_epochs}, Accuracy: {acc}, Time: {time}\n")        
